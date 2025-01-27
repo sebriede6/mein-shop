@@ -1,4 +1,4 @@
-// ProductCard.jsx
+
 import PropTypes from 'prop-types';
 
 function ProductCard(props) {
@@ -6,8 +6,8 @@ function ProductCard(props) {
     <div className="border p-4 shadow-lg rounded-lg">
       <img src={props.product.thumbnail} alt={props.product.name} className="mb-4" />
       <h3 className="text-xl font-semibold">{props.product.name}</h3>
-      <p className="text-lg font-bold text-blue-500">{props.product.price} €</p>
-      <p className="text-sm text-gray-600">
+      <p className="text-lg font-bold text-gray-800">{props.product.price} €</p>
+      <p className="text-sm text-gray-800">
         {props.product.available ? "Verfügbar" : "Nicht verfügbar"}
       </p>
     </div>

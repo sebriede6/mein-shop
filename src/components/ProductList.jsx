@@ -1,5 +1,5 @@
 
-import ProductCard from './ProductCard'; // Importiere die ProductCard-Komponente
+import ProductCard from './ProductCard'; 
 
 function ProductList() {
   const products = [
